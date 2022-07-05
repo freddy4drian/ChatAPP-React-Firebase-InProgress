@@ -1,0 +1,180 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*:focus {
+   outline: none;
+}
+
+
+.container-bg {
+   min-height: 100vh;
+   min-width: 100%;
+}
+
+.col-center{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.col-direction {
+   display: flex;
+   flex-direction: column;
+}
+
+/****** BACKGROUND *******/
+
+.css-selector {
+   background: linear-gradient(270deg, #4839c5, #a532c6, #00a5f2);
+   background-size: 600% 600%;
+   -webkit-animation: AnimationName 10s ease infinite;
+   -moz-animation: AnimationName 10s ease infinite;
+   -o-animation: AnimationName 10s ease infinite;
+   animation: AnimationName 10s ease infinite;
+   backdrop-filter: blur(20px);
+}
+
+@-webkit-keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+
+@-moz-keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+
+@-o-keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+
+@keyframes AnimationName {
+   0%{background-position:0% 50%}
+   50%{background-position:100% 50%}
+   100%{background-position:0% 50%}
+}
+
+/****** BRAND ******/
+
+.title {
+   font-size: 2rem;
+   font-weight: 700;
+   color: #fff;
+   display: flex;
+   align-items: center;
+   margin-bottom: 30px;
+}
+
+.title span {
+   font-size: 1.5rem;
+   border: 2px solid rgb(255, 255, 255, .8);
+   margin-left: .5rem;
+   border-radius: 5px;
+   color: rgb(255, 255, 255, .9);
+   padding: 0 10px;
+}
+
+
+/****** FORMS ******/
+
+.sign-form {
+   min-height: 500px;
+   max-height: 600px;
+   width: 400px;
+   background-color: rgb(248, 248, 249);
+   border-radius: 1.5rem;
+   mix-blend-mode: hard-light;
+}
+
+.sign-form h2 {
+   font-size: 1.2rem;
+   background-color: gray;
+   color: #fff;
+   padding: 5px 20px 25px 20px;
+   width: 30%;
+   display: flex;
+   align-self: center;
+   justify-content: center;
+   border-bottom-left-radius: 200px ;
+   border-bottom-right-radius: 200px ;
+   margin-bottom: 20px;
+   font-weight: 500;
+   letter-spacing: 1px;
+}
+
+.form-group {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+}
+
+.form-group small{
+   color: #adadad;
+   letter-spacing: 1px;
+}
+
+.form-group small:last-of-type{
+   margin-bottom: 15px;
+}
+
+.social-button{
+   background-color: #cccccc;
+   border-radius: 6px;
+   width: 80%;
+   padding: 10px;
+   text-align: center;
+   margin: 20px 0;
+   color: #fff;
+}
+
+
+.form-input{
+   width: 80%;
+   margin: 10px 0;
+}
+
+.form-input input{
+   min-width: 100%;
+   padding: 10px;
+   border-radius: 8px;
+   background-color: #e2e6ec;
+}
+
+.form-input input:focus{
+   outline: 3px solid #4839c5;
+   background-color: #fff;
+}
+
+.btn-submit{
+   margin: 30px 0;
+   background-color: #4839c5;
+   padding: 10px 30px;
+   border-radius: 6px;
+   color: #fff;
+   font-weight: 500;
+   cursor: pointer;
+   letter-spacing: 1px;
+}
+
+.btn-submit:hover{
+   transition: all ease-in-out 300ms;
+   background-color: #b017f7;
+}
+
+.form-group p {
+   margin-top: 20px;
+   color: #979797;
+   font-size: 1rem;
+}
+
+.form-group a {
+   color:#4839c5;
+   font-weight: 500;
+}
