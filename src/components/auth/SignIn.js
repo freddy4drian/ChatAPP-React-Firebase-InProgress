@@ -28,11 +28,11 @@ export const SignIn = () => {
           <p>Don't have an account yet? <Link to="/auth/sign-up">Create account</Link></p>
         </div>
 
-        <div className='form-group'>
+        <Link to="/" className='form-group'>
           <div className='btn-submit'>
               ENTER
           </div>
-        </div>
+        </Link>
       </div>
    </div>
   )

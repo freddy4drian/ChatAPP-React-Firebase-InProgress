@@ -351,12 +351,69 @@
    display: flex;
    align-items: center;
    justify-content: space-between;
-   width: 6rem;
+   width: 23rem;
 }
 
 .svg-grey{
    color: #5e5e5e
 }
+
+.icons-div{
+   position: relative;
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   width: 100%;
+}
+
+.search{
+   position: absolute;
+   right: 2.5rem;
+   height: 40px;
+   border-radius: 30px;
+}
+
+.search:hover{
+   background-color: #fff;
+   border-radius: 30px;
+   border: 1px solid #dbe3e9;
+}
+
+.search_input{
+   border: none;
+   background: none;
+   outline: none;
+   float: left;
+   padding: 0;
+   color: rgb(37, 37, 37);
+   font-size: 16px;
+   transition: 0.4s;
+   line-height: 40px;
+   width: 0px;
+}
+
+.search_button{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 40px;
+   height: 40px;
+   border-radius: 50%;
+   transition: .4s;
+   text-decoration: none;
+}
+
+.search:hover > .search_input{
+   width: 180px;
+   padding: 0 10px 0 20px;
+}
+
+.search:hover > .search_button {
+   color: #4839c5;
+   padding-right: 10px;
+}
+
+
 
 .text-input-bar{
    min-height: 5rem;

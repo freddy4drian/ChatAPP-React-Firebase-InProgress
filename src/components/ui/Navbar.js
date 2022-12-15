@@ -17,15 +17,20 @@ export const Navbar = () => {
           </div>
         </div>
         <div className='u-actions mx-2 px-1 svg-grey'>
-          <div className='search'>
-            <Link to="#">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
-            </Link>
-          </div>
-          <div className='menu'>
-            <Link to="#">
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
-            </Link>
+          <div className="icons-div">
+            <div className='search'>
+              <input type="text" className="search_input" placeholder="Escriba una palabra..." />
+              <Link to="#" className="search_button">
+                <svg className="w-6 h-6 search-mark" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+                </svg>
+              </Link>
+            </div>
+            <div className='menu'>
+              <Link to="#">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+              </Link>
+            </div>
           </div>
         </div>
       </div>

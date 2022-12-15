@@ -15,12 +15,12 @@ import { ChatApp } from './components/chatApp/ChatApp';
 function App() {
   return (
     <BrowserRouter>
-    <Routes>
-        <Route exact path="/auth/sign-in" element={<SignIn />} />
-        <Route exact path="/auth/sign-up" element={<SignUp />} />
-        <Route exact path="/" element={<ChatApp />} />
-    </Routes>
-  </BrowserRouter>
+      <Routes>
+          <Route exact path="/auth/sign-in" element={<SignIn />} />
+          <Route exact path="/auth/sign-up" element={<SignUp />} />
+          <Route exact path="/" element={<ChatApp />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
