@@ -11,7 +11,7 @@ export const ContactSelfCard = () => {
             <h2 className="contact-name text-lg font-normal">Freddy Adrián</h2>
             </div>
             <small className="contact-custom-status">
-            ¡La vida es un crimen!
+            ¡La vida es lo máximo!
             </small>
          </div>
       </div>
