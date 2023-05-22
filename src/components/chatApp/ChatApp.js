@@ -1,5 +1,5 @@
 import React from 'react'
-import { MessagesContainer } from '../ui/MessagesContainer'
+import { MessagesContainer } from '../ui/messages/MessagesContainer'
 import { Navbar } from '../ui/Navbar'
 import { Sidebar } from '../ui/Sidebar'
 import { TextBottomBar } from '../ui/TextBottomBar'
